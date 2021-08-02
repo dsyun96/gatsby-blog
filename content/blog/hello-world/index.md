@@ -1,238 +1,105 @@
 ---
-title: Hello World
-date: 2021-07-10
-description: "Hello World"
-tags: [Java, Development]
+title: Hello, world!
+date: 2021-08-02
+description: "첫 글은 헬로월드가 국룰"
+tags: [Blog]
 ---
 
-This is my first post on my new fake blog! How exciting!
+# 헤더 1
+## 헤더 2
+### 헤더 3
+#### 헤더 4
+##### 헤더 5
+###### 헤더 6
 
-I'm sure I'll write a lot more interesting things in the future.
+이것은 한글이다.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+And, this is English.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+두 줄을 붙여서 쓰면 어떻게 보일까?
+이 줄은 위 줄과 바로 붙여서 쓴 상태이다.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+    두 줄을 붙여서 쓰면 어떻게 보일까?
+    이 줄은 위 줄과 바로 붙여서 쓴 상태이다.
 
-You can also write code blocks here!
-
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
-
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
-
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
-
-This is a paragraph.
-
-    This is a paragraph.
-
-# Header 1
-
-## Header 2
-
-    Header 1
-    ========
-
-    Header 2
-    --------
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat mollis bibendum. Aenean sit amet justo viverra, finibus magna quis, luctus tellus.
 >
-> 1. This is the first list item.
-> 2. This is the second list item.
+> Maecenas ex sem, finibus nec tortor vitae, pretium aliquam erat. Proin ultricies ex at risus consectetur, sit amet posuere felis sagittis. Fusce eleifend, arcu vitae dictum cursus, mauris ligula elementum eros, sit amet lobortis augue dui sed ante. 
+
+이미지도 잘 올라가는지 확인해 보자.
+
+![개발자 공감](https://cdn.clien.net/web/api/file/F01/2986983/def325ffb07a4fc1920.JPG?w=780&h=30000)
+
+C언어로 헬로월드는 다음과 같이 짠다.
+
+```C
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello, world!\n");
+    return 0;
+}
+```
+
+적당한 표
+
+| 제목 1 | 제목 2    | 제목 3 |
+| :----- | :-------:| ----: |
+| 1      | Windows  | 2001  |
+| 2      | Linux    | 2002  |
+| 3      | Mac      | 2004  |
+
+문단 1
+
+    문단 2
+    문단 3
+
+
+> ## 인용문 안의 헤더
 >
-> Here's some example code:
+> 1. 안녕하세요
+> 2. 안녕히가세요
 >
->     Markdown.generate();
+>
 
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-- Red
-- Green
-- Blue
+# 여백의 미
 
-* Red
-* Green
-* Blue
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-- Red
-- Green
-- Blue
+- `간단한 코드`
+- **볼드체**
+- __볼드체2__
+- *기울임체*
+- _기울임체2_
+<br>
 
-```markdown
-- Red
-- Green
-- Blue
+    - `간단한 코드`
+    - **볼드체**
+    - __볼드체2__
+    - *기울임체*
+    - _기울임체2_
 
-* Red
-* Green
-* Blue
+<!-- 여기엔 주석이 숨겨져 있다. -->
 
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-    2. Don't Bake
-
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
+<br>
 
 ---
 
----
+그리고 [KaTeX](https://katex.org/) 문법을 지원한다!
 
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-LaTeX supported by KaTeX.
-
-
-$a^2 + b^2 = c^2$
+피타고라스의 정리는 $a^2 + b^2 = c^2$ 이다.
 
 $$
 \begin{CD}
@@ -240,5 +107,9 @@ A @>a>> B \\
 @VbVV @AAcA \\
 C @= D
 \end{CD}
+$$
+
+$$
+\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}
 $$
 

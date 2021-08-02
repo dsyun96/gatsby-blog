@@ -64,7 +64,7 @@ const Profile = () => {
         className='profile-image'
         layout='fixed'
         formats={['auto', 'webp', 'avif']}
-        src='../../images/profile-pic.jpeg'
+        src='../../images/yuni.jpg'
         width={70}
         height={70}
         quality={95}
