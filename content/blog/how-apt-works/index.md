@@ -25,7 +25,7 @@ Building dependency tree
 Reading state information... Done
 E: Unable to locate package nodejs
 ```
-`apt-get install` 명령어를 입력하고 나면 `apt-get`은 /var/lib/apt/lists 디렉터리를 참조한다. 해당 디렉터리에는 패키지 목록이 있고, 이를 이용하여 맵핑된 주소를 따라가 패키지를 다운받고 설치하는 방식이다. 하지만 우분투를 새로 막 설치한 경우에는 패키지 목록이 없을 것고, 패키지 목록이 있다고 하더라도 시간이 지남에 따라 패키지들의 버전은 달라질 수 있다.
+`apt-get install` 명령어를 입력하고 나면 `apt-get`은 /var/lib/apt/lists 디렉터리를 참조한다. 해당 디렉터리에는 패키지 목록이 있고, 이를 이용하여 맵핑된 주소를 따라가 패키지를 다운받고 설치하는 방식이다. 하지만 우분투를 새로 막 설치한 경우에는 패키지 목록이 없을 것이고, 패키지 목록이 있다고 하더라도 시간이 지남에 따라 패키지들의 버전은 달라질 수 있다.
 
 이를 해결해주는 것이 `apt-get update` 명령어다. 이 명령어를 입력하면 `apt-get`은 /etc/apt/sources.list 파일에 기록된 패키지 저장소의 주소를 사용한다. 이 파일의 첫 몇 줄은 다음과 같다.
 ```text
