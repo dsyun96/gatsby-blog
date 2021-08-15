@@ -156,11 +156,11 @@ Do you want to continue? [Y/n]
 그러다가 최근에 와서야 문득 원리가 궁금해졌고, 열심히 찾아본 결과 내부적으로 동작하는 방식을 알아내어 이를 블로그에 정리한다. 이미 알고 있는 사람에게는 이러한 흐름이 당연한 것일 수도 있지만 나처럼 몰랐던 사람들은 이번 기회에 원리를 한 번 짚고 넘어가는 것도 괜찮을 것이다.
 
 # References
-- https://en.wikipedia.org/wiki/APT_(software)
-- https://itsfoss.com/apt-vs-apt-get-difference/
-- https://titanwolf.org/Network/Articles/Article?AID=c87b0ea5-add1-42d5-9711-c1956b772206
-- https://www.quora.com/How-exactly-does-the-sudo-apt-get-install-package-work-in-Linux
-- https://help.ubuntu.com/community/Repositories
+- APT -- https://en.wikipedia.org/wiki/APT_(software)
+- apt와 apt-get의 차이 -- https://itsfoss.com/apt-vs-apt-get-difference/
+- apt-get 동작 원리 소개 -- https://titanwolf.org/Network/Articles/Article?AID=c87b0ea5-add1-42d5-9711-c1956b772206
+- apt-get install 동작 원리 -- https://www.quora.com/How-exactly-does-the-sudo-apt-get-install-package-work-in-Linux
+- 우분투 저장소 -- https://help.ubuntu.com/community/Repositories
 
 <br>
 <br>

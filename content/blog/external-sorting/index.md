@@ -119,12 +119,12 @@ pass의 평균적인 수를 계산해 보면 $1 + \log(\frac{N + 1}{4B})$라고 
 "은총알은 없다"는 말이 있다. 어떤 상황이든 간에 상관 없이 항상 완벽하게 해결해 주는 방법은 없다는 뜻이다. 대부분의 경우 머지소트를 이용한 외부 정렬이 효율적이겠지만, 추가적인 디스크 공간이 없다면 머지소트는 포기하고 퀵소트 등의 다른 방법을 찾아야 할 것이다. 상황에 알맞게 어떤 방법을 쓸지 많이 고민해 보자.
 
 # References
-- https://dudri63.github.io/2019/02/03/algo32/
-- https://twinparadox.tistory.com/194
-- https://en.wikipedia.org/wiki/External_sorting
-- https://en.wikipedia.org/wiki/Quicksort#External_quicksort
-- https://xlinux.nist.gov/dads/HTML/externalQuicksort.html
-- https://fdocuments.net/reader/full/an-efficient-external-sorting-with-minimal-space-requirement
+- 외부 정렬 설명 -- https://dudri63.github.io/2019/02/03/algo32/
+- 외부 정렬 설명 2 -- https://twinparadox.tistory.com/194
+- 외부 정렬 -- https://en.wikipedia.org/wiki/External_sorting
+- external quicksort -- https://en.wikipedia.org/wiki/Quicksort#External_quicksort
+- external quicksort 간단한 개요 -- https://xlinux.nist.gov/dads/HTML/externalQuicksort.html
+- International Journal of Computer and Information Sciences, 1982 -- https://fdocuments.net/reader/full/an-efficient-external-sorting-with-minimal-space-requirement
 
 <br>
 <br>
